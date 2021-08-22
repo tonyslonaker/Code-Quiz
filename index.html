@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,3 +10,44 @@
     <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
     <title>Quiz App</title>
 </head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" id="highscore-link" href="highScores.html">Highscores</a></div>
+            <div class="nav navbar-nav navbar-right" id="time">Time: 0</div>
+        </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-10" id="master-div">
+                <h2 id="question"></h2>
+                <div id="answers">
+                    <button type="button" class="btn btn-dark" id="answerOne"></button>
+                    <button type="button" class="btn btn-dark" id="answerTwo"></button>
+                    <button type="button" class="btn btn-dark" id="answerThree"></button>
+                    <button type="button" class="btn btn-dark" id="answerFour"></button>
+                </div>
+                <div id="message">
+                  <h1>Codes Quiz Challenge</h1>
+                  <p>These are a HTML, CSS, and Javascript multiple choices questions.
+                    <br> You will have 3 minute (180s) to answer all the questions.
+                    <br> Keep in mind wrong answer will be penalised in 10 second minus from you remaining time.
+                  </p>
+              </div>
+              
+                <div class="col-xs-12 col-sm-8 col-md-6" id="buttonDiv"><button type="button" class="btn btn-dark"
+                        id="startButton">Start
+                        Quiz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/javaScript/questions.js"></script>
+    <script src="assets/javaScript/script.js"></script>
+    </div>
+</body>
+
+</html>
