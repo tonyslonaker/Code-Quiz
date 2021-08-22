@@ -11,9 +11,9 @@ var storedScores;
 var scoreList = [];
 
 
-var correctSound = new Audio("assets/audios/correct.wav");
+var correctSound = new Audio("assets/Audio/correct.wav");
 
-var incorrectSound = new Audio("assets/audios/incorrect.wav");
+var incorrectSound = new Audio("assets/Audio/incorrect.wav");
 
 
 
