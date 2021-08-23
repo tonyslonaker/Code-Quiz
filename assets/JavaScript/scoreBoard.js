@@ -1,11 +1,11 @@
-var highScoreList = document.querySelector("#highScores");
+var highScoreList = document.querySelector("#highScore");
 var backButton = document.querySelector("#go-back");
-var clearScores = document.querySelector("#clear-highscores");
+var clearScores = document.querySelector("#clear-highscore");
 
 initScores();
 
 function initScores() {
-    storedScores = JSON.parse(localStorage.getItem("scores"));
+    storedScores = JSON.parse(localStorage.getItem("score"));
 
     if (storedScores !== null) {
         scoreList = storedScores;

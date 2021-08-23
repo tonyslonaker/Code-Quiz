@@ -38,26 +38,27 @@ var questions = [
     },
 
     {
-        title: "Which HTML attribute is used to define inline styles?",
-        choices: ["bgcolor", "background-color", "color", "background-inline"],
-        answer: "background-color"
-    },
-
-    {
         title: "What does CSS stand for?",
         choices: ["Colorful Style Sheets", "Creative Style Sheets", "Computer Style Sheets", "Cascading Style Sheet"],
         answer: "Cascading Style Sheet"
     },
 
     {
-        title: "Where is the correct place to insert a JavaScript?",
-        choices: ["The <body> section", "The <head> section", "The <main> section", "Both the <head> section and the <body> section are correct"],
-        answer: "The <head> section"
+        title: "Inside which HTML element do we put the JavaScript?",
+        choices: ["The <body> section", "The <script> section", "The <main> section", "Both the <head> section and the <body> section are correct"],
+        answer: "The <script> section"
     },
 
     {
         title: "How do you create a function in JavaScript?",
-        choices: ["function = myFunction()", "function:myFunction", "function myFunction"],
+        choices: ["function = myFunction()", "function:myFunction", "function myFunction", "function/myfunction"],
         answer: "function = myFunction()"
     },
+
+    {
+        title: "Where is the correct place to insert a JavaScript?",
+        choices: ["The <body> section", "The <main> section", "The <head> section", "The <footer> section"],
+        answer: "The <body> section"
+    },
+
 ];
