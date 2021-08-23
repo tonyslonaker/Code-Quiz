@@ -1,5 +1,5 @@
 # Code-Quiz
-Timed quiz on JS fundamentals. Try to get the highest score... 
+Timed quiz on HTML/CSS/JS fundamentals. Try to get the highest score... 
 
 ## Acceptance Criteria 
 GIVEN I am taking a code quiz
